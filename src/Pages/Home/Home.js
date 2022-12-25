@@ -5,7 +5,7 @@ import university from "../../assets/university.jpg";
 const Home = () => {
   return (
     <div className=" min-h-screen">
-      <div className="flex flex-col lg:flex-row-reverse">
+      <div className="flex flex-col lg:flex-row-reverse my-16 mx-12">
         <div className="w-1/2 p-6">
           <img src={university} alt="" />
         </div>
